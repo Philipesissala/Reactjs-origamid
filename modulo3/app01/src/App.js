@@ -14,12 +14,12 @@ const App = () => {
   };
   return (
     <>
+      {titulo}
+      {true ? "filipe" : "Sissala"}
+      {mostrarNme("Sissala")}
+      {new Date().getFullYear()}
       <a href="texto" title={nome} style={style}>
         Olá mundo meu nome é {nome}
-        {titulo}
-        {true ? "filipe" : "Sissala"}
-        {mostrarNme("Sissala")}
-        {new Date().getFullYear()}
       </a>
     </>
   );
