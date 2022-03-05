@@ -24,7 +24,7 @@ const Mario = {
 };
 
 const App = () => {
-  const dados = Mario;
+  const dados = Luana;
   const totalGastos = dados.compras;
   let total = 0;
   for (let i = 0; i < totalGastos.length; i++) {
