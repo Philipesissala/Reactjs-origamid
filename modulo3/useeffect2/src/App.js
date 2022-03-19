@@ -23,9 +23,10 @@ const App = () => {
   }, []);
   return (
     <>
-      <Produto produto={produto} />
+    <h1>Preferência: {produto.nome}</h1>
       <button onClick={handleClick}>Notebook</button>
       <button onClick={handleClick}>Smartphone</button>
+      <Produto produto={produto} />
     </>
   );
 };
