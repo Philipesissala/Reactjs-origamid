@@ -36,7 +36,7 @@ function App() {
       />{" "}
       <h2>Checkbox</h2>
       <Checkbox
-        options={["Arroz", "Feijão", "batatas", "carne"]}
+        options={["Arroz", "Feijão", "batatas", "carne","Fígado"]}
         values={comida}
         setValue={setComida}
       />
